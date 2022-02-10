@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mine Sweeper</title>
+  </head>
+  <body>
+    <form id="form">
+      <input placeholder="가로 : " size="5" id="row" />
+      <input placeholder="세로 : " size="5" id="cell" />
+      <input placeholder="지뢰갯수 : " size="10" id="mine" />
+      <button>Start !</button>
+    </form>
+    <div id="timer">0초</div>
+    <table id="table">
+      <tbody></tbody>
+      <div id="result"></div>
+    </table>
+    <script src="js/mine.js"></script>
+  </body>
+</html>
